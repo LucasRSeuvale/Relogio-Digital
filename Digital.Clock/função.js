@@ -100,8 +100,8 @@ function Timer() {
 
     document.getElementById('Hora').innerText = returnData(Hora);
     document.getElementById('Minuto').innerText = returnData(Minuto);
-    document.getElementById('Segundo').innerText = returnData(Segundo);
-    document.getElementById('Milesegundo').innerText = returnData(Milesegundo);
+    document.getElementById('Segundo').innerText = returnData(Segundo); 
+   
 
     function returnData(input) {
         return input >= 10 ? input : `0${input}`
